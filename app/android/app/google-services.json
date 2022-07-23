@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "388728670544",
+    "project_id": "batson-5af4c",
+    "storage_bucket": "batson-5af4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388728670544:android:e9b0f2b8f6d6b9caa3c455",
+        "android_client_info": {
+          "package_name": "com.batson"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388728670544-aedpa51ha6u3re5uvdhovovl6i1q8dub.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZhSaxIbz_9GIWLXfIfHbOhVEvH6Qfzyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388728670544-aedpa51ha6u3re5uvdhovovl6i1q8dub.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+opencv-python
+gunicorn
+imutils
+pydub
+moviepy
+gensim
+IMDbPY
+scikit-learn
+dlib
+face-recognition
+SpeechRecognition
+flask
+mysql-connector-python

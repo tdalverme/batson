@@ -1,0 +1,92 @@
+{
+  "name": "batson",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "android:clean": "rm -r node_modules && yarn && cd android && ./gradlew clean && cd .. && react-native run-android",
+    "android:build": "rm -r node_modules && yarn && cd android && rm -r app/build && ./gradlew clean && ./gradlew assembleRelease",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "ts-check": "tsc -p tsconfig.json --noImplicitAny false"
+  },
+  "dependencies": {
+    "@babel/preset-typescript": "^7.16.7",
+    "@react-native-community/async-storage": "^1.12.1",
+    "@react-native-community/cli-platform-ios": "^5.0.1-alpha.2",
+    "@react-native-firebase/admob": "11.5.0",
+    "@react-native-firebase/app": "11.5.0",
+    "@react-navigation/material-top-tabs": "^6.0.6",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/stack": "^5.14.5",
+    "@reduxjs/toolkit": "^1.6.1",
+    "@types/react-redux": "^7.1.18",
+    "expo-image-picker": "^10.1.4",
+    "react": "17.0.1",
+    "react-native": "0.64.0",
+    "react-native-appearance": "^0.3.4",
+    "react-native-camera": "^3.43.6",
+    "react-native-circular-progress": "^1.3.7",
+    "react-native-fs": "^2.18.0",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-image-crop-picker": "^0.36.2",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-pager-view": "^5.4.7",
+    "react-native-reanimated": "2.6.0",
+    "react-native-redash": "14.2.2",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-screens": "^3.2.0",
+    "react-native-svg": "^12.1.1",
+    "react-native-tab-view": "^3.1.1",
+    "react-native-unimodules": "^0.13.3",
+    "react-native-vector-icons": "^8.1.0",
+    "react-native-video": "^5.1.1",
+    "react-native-video-controls": "^2.8.1",
+    "react-native-webview": "^11.14.1",
+    "react-native-youtube-iframe": "^2.1.2",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.1",
+    "use-debounce": "^7.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/jest": "^26.0.20",
+    "@types/react-native": "^0.64.0",
+    "@types/react-native-linear-gradient": "^2.4.0",
+    "@types/react-native-vector-icons": "^6.4.7",
+    "@types/react-native-video": "^5.0.5",
+    "@types/react-test-renderer": "^16.9.2",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.14.0",
+    "eslint-plugin-react-native": "^3.11.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.64.0",
+    "react-test-renderer": "17.0.1",
+    "reactotron-react-native": "^5.0.0",
+    "reactotron-redux": "^3.1.3",
+    "typescript": "^4.4.3"
+  },
+  "resolutions": {
+    "@types/react": "^17"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts"
+    ]
+  }
+}
